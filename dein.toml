@@ -1,0 +1,33 @@
+[[plugins]]
+repo = 'tomasr/molokai'
+[[plugins]]
+repo = 'vim-scripts/taglist.vim'
+[[plugins]]
+repo = 'szw/vim-tags'
+# LSP関連
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+[[plugins]]
+repo = 'Shougo/ddc.vim'
+[[plugins]]
+repo = 'vim-denops/denops.vim'
+[[plugins]]
+repo = 'Shougo/ddc-around'
+[[plugins]]
+repo = 'Shougo/ddc-ui-native'
+[[plugins]]
+repo = 'Shougo/ddc-source-around'
+[[plugins]]
+repo = 'Shougo/ddc-matcher_head'
+[[plugins]]
+repo = 'Shougo/ddc-sorter_rank'
+[[plugins]]
+repo = 'mattn/sonictemplate-vim'
+[[plugins]]
+repo = 'Shougo/ddc-ui-none'
+[[plugins]]
+repo = 'Shougo/ddc-ui-pum'
+[[plugins]]
+repo = 'Shougo/pum.vim'

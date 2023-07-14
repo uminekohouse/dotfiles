@@ -1,0 +1,31 @@
+[[plugins]]
+repo = 'lervag/vimtex'
+on_ft = 'tex'
+hook_add = '''
+  let g:vimtex_compiler_latexmk_engines = {'_': '-pdfdvi'}
+  let g:vimtex_view_method= 'skim'
+  let g:vimtex_quickfix_latexlog = {'default': 0}
+'''
+[[plugins]]
+repo = 'nvie/vim-flake8'
+on_ft = ['python']
+
+[[plugins]]
+repo = 'tell-k/vim-autopep8'
+on_ft = ['python']
+
+[[plugins]]
+ repo = 'matsui54/denops-signature_help'
+ on_source = 'ddc.vim'
+ hook_source = '''
+ call signature_help#enable()
+'''
+
+[[plugins]]
+ repo = 'matsui54/denops-popup-preview.vim'
+ on_source = 'ddc.vim'
+ hook_source = '''
+ call popup_preview#enable()
+'''
+
+
